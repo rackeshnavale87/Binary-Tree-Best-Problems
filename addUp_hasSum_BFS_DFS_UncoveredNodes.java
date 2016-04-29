@@ -19,8 +19,6 @@ class Node
 	}
 }
 
-
-
 public class Tree_B_D {
 
 	public static int nodeCount = 0;
@@ -36,9 +34,6 @@ public class Tree_B_D {
 		nodeCount++;
 		inorder(root2.right);		
 	}
-	static ArrayList<ArrayList<Integer>> results= 	new ArrayList<ArrayList<Integer>>();
-	@SuppressWarnings("unchecked")
-	static ArrayList<Integer> pathlist[] = (ArrayList<Integer>[])new ArrayList[9];
 
 	public static void main(String[] args) {
 		
@@ -56,13 +51,10 @@ public class Tree_B_D {
 //		Node n9  = new Node(111);
 //		Node n10 = new Node(222);
 //		Node n11 = new Node(333);
-//
 //		n6.left = n9;
 //		n9.right = n10;
 //		n10.left = n11;
-		
-		
-		
+
 		root.right = n2;
 		root.left = n1;
 		n1.left = n3;
@@ -205,8 +197,8 @@ public class Tree_B_D {
 		return downlevel;
 	}
 }
-/*
 
+/*
 ##########Output for BFS ##########
 
 10 20 30 40 50 80 70 60 90 
@@ -239,8 +231,4 @@ Path found from root to LEAF NODE
 50   20   10   60   90   
 
 ##############################################
-
-
-
-
 */
