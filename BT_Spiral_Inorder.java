@@ -99,7 +99,7 @@ public class BT_Spiral_Inorder {
 
 
 /*
-OUTPUT---------
+##########Output for Spiral Inorder ##########
 Inorder
 10   20   30   40   50   60   70   80   90   
 Zig-Zag
