@@ -12,14 +12,14 @@ class Node {
 public class P156 {
 	static Node rootM;
 
-		/*
-	  1 	               4
+/*
+    1 	               4
    / \                / \
-  2   3   ========>	 5   2
- / \		            / \
+  2   3   ========>  5   2
+ / \		    / \
 4   5              3   1
 		
-		*/
+*/
 
 		private static Node upsideDownBinaryTree(Node root) {
 		if (root == null) 
@@ -70,5 +70,5 @@ public class P156 {
 4   2   5   1   3   
 5   4   3   2   1 
 
-*/-----------------------------------------------
+--------------------------------------------------*/
 
