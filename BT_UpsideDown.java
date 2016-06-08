@@ -21,19 +21,19 @@ public class P156 {
 		
 */
 
-		private static Node upsideDownBinaryTree(Node root) {
+	private static Node upsideDownBinaryTree(Node root) {
 		if (root == null) 
-            return null;
-        Node left = root.left;
-        Node right = root.right;
-        Node newRoot = upsideDownBinaryTree(left);
-        if (left != null) {
-            left.left = right;
-            left.right = root;
-        }
-        root.left = null;
-        root.right = null;
-        return newRoot != null ? newRoot : root;
+	            return null;
+	        Node left = root.left;
+	        Node right = root.right;
+	        Node newRoot = upsideDownBinaryTree(left);
+	        if (left != null) {
+	            left.left = right;
+	            left.right = root;
+	        }
+	        root.left = null;
+	        root.right = null;
+	        return newRoot != null ? newRoot : root;
 	}
 
 
